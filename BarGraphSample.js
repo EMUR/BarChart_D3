@@ -63,7 +63,7 @@ the difference between .csv, .tsv and .json files. To import a .tsv or
 // data.csv contains the country name(key) and its GDP(value)
 // 1 point for explaining the code for reading the data
 // We ask the d3 to open the csv located in the same directory, and then for each data value, we assing the key and value to our local dataset
-d3.csv("GDP2016TrillionUSDollars.csv",function(error, data){
+d3.csv("https://github.com/EMUR/BarChart_D3/blob/master/GDP2016TrillionUSDollars.csv",function(error, data){
     data.forEach(function(d) {
         d.key = d.key;
         d.value = +d.value;
