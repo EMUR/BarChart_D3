@@ -1,0 +1,34 @@
+body {
+    background-color: #E6E6E6;
+}
+
+p {
+    text-indent: 40px;
+}
+
+svg
+{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+//Add .axis path and .axis line commans as described in the book (1 point)
+.axis text {
+    font: Times;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.axis {
+    font: 10px sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 85);
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
